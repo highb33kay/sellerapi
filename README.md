@@ -2,6 +2,10 @@
 
 Welcome to the Brazilian E-Commerce API! This Node.js project provides RESTful API endpoints for accessing resources related to orders and seller accounts from the Olist E-Commerce dataset.
 
+## Documentation
+
+https://documenter.getpostman.com/view/28437007/2s9YeBdtNd#5faaf873-f04a-4e65-9eee-c3b5222f4ddf
+
 ## Features:
 
 - List order items with sorting and pagination.
