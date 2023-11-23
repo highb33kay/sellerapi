@@ -5,8 +5,7 @@ require("dotenv/config");
 const csv = require("csv-parser");
 const { MongoClient } = require("mongodb");
 
-const url =
-  "mongodb+srv://hiibeekayvibe:asVPuC1sBFPBEOdm@cluster0.9ni7azo.mongodb.net/?retryWrites=true&w=majority";
+const url = process.env.MONGO_URL;
 const dbName = "olist";
 
 async function importCSV(filePath, collectionName) {
